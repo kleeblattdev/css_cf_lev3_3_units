@@ -1,0 +1,110 @@
+/* font-family
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Gilda Display', serif;
+ */
+
+@font-face {
+    font-family: 'Maven Pro';
+    src: url(../fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Gilda Display';
+    src: url(../fonts/Gilda_Display/GildaDisplay-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+
+p, .fontMaven {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h1 {
+    font-family: 'Gilda Display', serif;
+}
+
+h2{
+    font-family: 'Gilda Display', serif;
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+
+/* Header Style */
+
+header{
+    height: 100vh;
+    background-color: #333;
+    color: #ffffff;
+}
+
+header h2{
+    width: 2vw;
+    padding: 1%;
+}
+
+header section{
+    background-image: linear-gradient(to top right,rgba(133,7,225,1) 0%, rgba(25,72,148,1) 48%, rgba(61,200,213,1) 100% );
+    padding: 1%;
+    height: 15vw;
+    width: 15vw;
+    margin: auto;
+}
+
+header h1{
+    font-size: 2.5rem;
+    padding: 0.5% 0.5% 30%;
+}
+
+.fontSizeSmall{
+    font-size: 0.75rem;
+}
+
+nav{
+    padding: 12% 0 5%;
+}
+
+nav a{
+    display: block;
+    text-align: right;
+    color: #cccccc;
+    text-decoration: none;
+    padding: 0.5%;
+}
+
+nav a:first-of-type{
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+/* Main Style */
+
+.introduction {
+    height: 100vh;
+    margin: 20% 30% auto 10%;
+}
+
+.introduction p{
+    width: 50vh;
+    padding-bottom: 2%;
+}
+
+.pmuSize, .agrotechSize, .namuSize{
+    height: 100vh;
+    margin: 0 10%;
+}
+
+.imgSize{
+    height: 70%;
+    width: 90%;
+    border-radius: 2%;
+}
+
