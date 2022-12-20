@@ -38,9 +38,9 @@ h2{
 /* Header Style */
 
 header{
-    height: 100vh;
     background-color: #333;
     color: #ffffff;
+    height: 100vh;
 }
 
 header h2{
@@ -71,11 +71,12 @@ header h1{
 }
 
 nav{
+    width: 100px;
     padding: 12% 0 5%;
+    margin-left: 80vw;
 }
 
 nav a{
-    display: block;
     text-align: right;
     color: #cccccc;
     text-decoration: none;
@@ -95,6 +96,11 @@ nav a:hover{
 .introduction {
     height: 100vh;
     margin: 20% 30% auto 10%;
+}
+
+.imgSizeRespons{
+    height: 20vh;
+    width: 50vw;
 }
 
 .introduction p{
